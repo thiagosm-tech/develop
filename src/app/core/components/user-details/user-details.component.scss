@@ -1,0 +1,37 @@
+.container-user-details {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+
+    .user-details-table{
+        width: 100%;
+        overflow: hidden;
+
+        .user-img {
+            width: 60px;
+            border-radius: 30px;
+            vertical-align: middle;
+            margin: 2.5px auto;
+        }
+
+        .user-table-tr {
+            background: #221c33;
+
+            .user-table-td {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.text-center {
+    text-align: center;
+}
